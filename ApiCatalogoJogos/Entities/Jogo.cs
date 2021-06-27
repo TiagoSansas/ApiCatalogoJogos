@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ApiCatalogoJogos.ViewModel
+namespace ApiCatalogoJogos.Entities
 {
-    public class JogoViewModel
+    public class Jogo
     {
         public Guid Id { get; set; }
         public string Nome { get; set; }
-        public string Produto { get; set; }
         public string Produtora { get; set; }
         public double Preco { get; set; }
     }
-
 }
+
